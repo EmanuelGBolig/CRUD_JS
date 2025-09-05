@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de Objeto</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="test.js"></script>
+  </head>
+  <body>
+    <h1 id="form-title">Nuevo Objeto</h1>
+
+    <!-- Formulario -->
+    <form id="object-form">
+      <input type="hidden" id="object-id" />
+
+      <label for="firstName">Nombre:</label>
+      <input type="text" id="firstName" name="firstName" required />
+
+      <label for="lastName">Apellido:</label>
+      <input type="text" id="lastName" name="lastName" required />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required />
+
+      <label for="gender">Genero::</label>
+      <input type="text" id="gender" name="gender" required />
+
+      <button onclick="window.location.href='index.html'">Guardar</button>
+    </form>
+
+    <a href="index.html">Volver al listado</a>
+  </body>
+</html>
